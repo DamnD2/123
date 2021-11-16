@@ -1,0 +1,27 @@
+.header, .footer{
+  height: 10vh;
+  background-color: #d8d8d8;
+}
+
+.header__title, .footer__title{
+  text-align: center;
+  padding: 10px;
+}
+
+.main{
+  height: 80vh;
+  padding: 50px;
+}
+
+.main__item{
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #000;
+  margin-right: calc(5% - 4px);
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.main__item:last-child{
+  margin-right: 0;
+}
